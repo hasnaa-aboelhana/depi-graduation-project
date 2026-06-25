@@ -1,0 +1,64 @@
+# Environment Variables
+.env
+.env.*
+*.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# ML / DL Models
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pb
+saved_model/
+
+# Training Outputs
+runs/
+logs/
+tensorboard/
+checkpoints/
+weights/
+models/
+
+# Dataset Files
+data/
+datasets/
+training/
+testing/
+
+# Large data formats
+*.csv
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+#IDE files
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+*.egg-info/
